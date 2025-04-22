@@ -122,7 +122,7 @@ If the request is successful, a `200` will be sent *as a [stream](https://develo
 {"delta":""}
 ```
 
-These responses are chunked with 1-or-more JS response objects per chunk, seperated by new line characters. For example, the above may be streamed as the following chunks...
+These responses are chunked with 0-or-more JS response objects per chunk, seperated by new line characters. For example, the above may be streamed as the following chunks...
 
 ```json
 {"delta":""}
