@@ -26,7 +26,7 @@ export default function TextAppManager() {
     }
 
     function handleSwitchPersona(selectedPersona) {
-        alert(`I should check with the user first, then switch to the '${selectedPersona}' persona.`);
+        alert(`I should switch to the '${selectedPersona}' persona.`);
     }
 
     return <Container style={{ marginTop: "0.25rem" }}>
